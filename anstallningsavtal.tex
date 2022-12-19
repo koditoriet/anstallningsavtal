@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc} 
+\input{avtal}
+\title{Anställningsavtal mellan \foretag\ och \arbetstagarnamn}
+\date{}
+
+% Information om arbetstagare och arbetsgivare
+\arbetstagare{Bosse Bus}{xxxxxxxx-xxxx}{xxxxxxxxxx}{Exempelgatan 2}{123 45}{Exempelstad}
+\arbetsgivare{Storks IT AB}{yyyyyy-yyyy}{yyyyyyyyyy}{Businessgatan 42}{543 21}{Förortsholm}
+\chef{Stina Stork}
+
+% Obligatoriska uppgifter om anställningen
+\befattning{IT-konsult}
+\tilltrade{2022-10-01}
+\lon{46 200}
+\arbetsuppgifter{Design och utveckling av mjukvara, samt relaterade arbetsuppgifter.}
+\formaner{Friskvårdsbidrag om 5 000 SEK/år.}
+\arbetsplats{Utstationerad hos kund, alt. från arbetsgivarens lokaler eller på distans med kunds godkännande.}
+
+% Övriga villkor att konfigurera:
+% \semester{25} <- 25 dagar semester
+% \heltid{35} <- Heltidanställning, 35 timmar
+% \deltid{30}{75} <- Deltidanställning på 30 timmar, motsvarande 75%
+% \overtid{Övertid kompenseras med en liter glass per timme.} <- Övertidsersättning
+% \tillsvidare <- Tillsvidareanställning (default)
+% \provanstallning{2022-12-31} <- Provanställning t o m 31/12 2022
+% \tidsbegransad{2022-12-31} <- Tidsbegränsad anställning t o m 31/12 2022
+
+% Övriga villkor:
+% \ovrigt{
+%     \begin{subsection}{Immateriella rättigheter}
+%         Alla immateriella tillfaller arbetsgivaren.
+%     \end{subsection}
+%     \begin{subsection}{Kaffe}
+%         Arbetstagaren ska ha tillgång till obegränsade mängder kaffe under arbetstid.
+%     \end{subsection}
+% }
+
+\begin{document}
+    \maketitle
+    \arbetsgivare
+    \arbetstagare
+    \anstallning
+
+    % Eventuella sektioner som av olika anlendingar inte passar under "Övriga villkor"
+    % \begin{section}{Lojalitetsplikt}
+    %     Det är viktigt att vara lojal!
+    % \end{section}
+
+    \ovrigavillkor
+    \underskrifter
+\end{document}
