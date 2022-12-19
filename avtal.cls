@@ -1,4 +1,8 @@
+\ProvidesClass{avtal}
+\LoadClass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
 \usepackage[margin=1.8cm]{geometry}
+\date{}
 
 % Defaults
 \newcommand{\arbetstimmar}{40}
@@ -158,12 +162,14 @@
     \parbox{8cm}{
         \hspace{0.18cm}{\large\textbf{#1 underskrift}}\\
         \begin{tabular}{l}
-            \\\\
+            \\\\\\
+            {\large}\vspace{-0.3cm}\\
             \makebox[8cm]{\dotfill}\\
             {\footnotesize Datum och ort}\\\\\\
+            {\large}\vspace{-0.3cm}\\
             \makebox[8cm]{\dotfill}\\
-            {\footnotesize Underskrift}\\\\
-            #2\vspace{-0.3cm}\\
+            {\footnotesize Underskrift}\\\\\\
+            {\large #2}\vspace{-0.3cm}\\
             \makebox[8cm]{\dotfill}\\
             {\footnotesize Namnförtydligande}\\\\
         \end{tabular}
