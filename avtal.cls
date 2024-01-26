@@ -17,6 +17,7 @@
 \newcommand{\befattning}[1]{\renewcommand{\befattning}{#1}}
 \newcommand{\arbetsplats}[1]{\renewcommand{\arbetsplats}{#1}}
 \newcommand{\tilltrade}[1]{\renewcommand{\tilltrade}{#1}}
+\newcommand{\uppsagningstid}[1]{\renewcommand{\uppsagningstid}{#1}}
 \newcommand{\lon}[1]{\renewcommand{\lon}{#1}}
 \newcommand{\semester}[1]{\renewcommand{\semesterdagar}{#1}}
 \newcommand{\arbetsuppgifter}[1]{\renewcommand{\arbetsuppgifter}{#1}}
@@ -123,6 +124,10 @@
                 Lön utbetalas den 25:e varje månad. Om den 25:e inte infaller på en vardag utbetalas lönen närmast
                 föregående vardag. Förskottslön tillämpas. Avvikelser regleras på nästkommande månadslön.
             }\\
+
+            \hline
+
+            \cell{|l|}{4}{16cm}{Uppsägningstid}{\uppsagningstid} \\
 
             \hline
 
